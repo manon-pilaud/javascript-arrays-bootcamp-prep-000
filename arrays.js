@@ -32,7 +32,7 @@ function removeElementFromBeginningOfArray (array,element) {
   return new_array
 }
 
-function destructivelyAddElementToEndOfArray(array, element) {
+function destructivelyRemoveElementFromEndOfArray(array, element) {
   array.push(element)
   return array
 }
